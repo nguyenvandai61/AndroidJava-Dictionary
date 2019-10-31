@@ -1,0 +1,5 @@
+name=OVDP - Từ điển Anh Việt
+from=en
+to=vi
+style=body {color:#FCFBDC;font-size:14px; font-family: Tahoma, Arial, Verdana, serif} * {margin:0px; padding:0px;} ul {padding:1px; margin-left:20px;} li{padding:0px;} .type{font-weight:bold;font-size:18px;color:#56797F;} .example {font-weight:bold;color:#FA8000;} .title{font-weight:bold; font-size:18px; color:#87A0A4;} .mexample{color:#B9Bf8E; font-style:italic;} .aexample{font-weight:bold;color:#FA8000;} .aidiom{font-weight:bold;color:#CC0000;}
+about=This is a about<br /> Copyright <a href="http://www.tudientiengviet.net">Tudientiengviet.net</a>

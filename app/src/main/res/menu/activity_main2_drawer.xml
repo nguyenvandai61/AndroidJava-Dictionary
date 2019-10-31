@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ev"
+            android:icon="@drawable/ic_menu_ev"
+            android:title="English - Vietnamese" />
+        <item
+            android:id="@+id/nav_ee"
+            android:icon="@drawable/ic_menu_ee"
+            android:title="English - English" />
+        <item
+            android:id="@+id/nav_ve"
+            android:icon="@drawable/ic_menu_ve"
+            android:title="Vietnamese - English" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_favorite"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav_your_words"
+            android:icon="@drawable/ic_menu_your_words"
+            android:title="Your words" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
